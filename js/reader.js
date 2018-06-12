@@ -1,4 +1,5 @@
 var viewer = document.getElementById('Data_Viewer');
+var showJson = false;
 
 function loadJSON (file, callback) {
     var xhr = new XMLHttpRequest();
@@ -11,10 +12,11 @@ function loadJSON (file, callback) {
     };
     xhr.send(null);
 }
-
-loadJSON('./js/dados.json', function (response) {
-    Show(response);
-});
+if (showJson == true) {
+    loadJSON('./js/dados.json', function (response) {
+        Show(response);
+    });
+}
 
 function Show (params) {
     var file = JSON.parse(params);
@@ -27,4 +29,11 @@ function Show (params) {
     //converte para texto e exibe no HTML
     let text = JSON.stringify(file, null, '\t');
     viewer.innerText = text;
+}
+
+try {
+    //tenta exportar para fazer testes no jest
+    module.exports = { loadJSON };
+} catch(e) {
+    console.log('reader.js :: module.exports inutilizado');
 }

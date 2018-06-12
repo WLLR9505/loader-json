@@ -1,0 +1,22 @@
+{
+  "name": "loader-json",
+  "version": "1.0.0",
+  "description": "Carrega dados de um JSON",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WLLR9505/loader-json.git"
+  },
+  "author": "Weuller Jr. Souza",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WLLR9505/loader-json/issues"
+  },
+  "homepage": "https://github.com/WLLR9505/loader-json#readme",
+  "devDependencies": {
+    "gulp": "^4.0.0"
+  }
+}

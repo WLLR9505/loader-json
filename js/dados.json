@@ -1,6 +1,50 @@
 {
-    "objeto" : {
+    "objeto" : [
+    {
         "nome": "obj1",
-        "descricao": "objeto UM"
+        "descricao": "objeto UM",
+        "img": "./src/imgs/obj1.jpg"
+    },
+    {
+        "nome": "obj2",
+        "descricao": "objeto DOIS",
+        "img": "./src/imgs/obj2.jpg"
+    },
+    {
+        "nome": "obj3",
+        "descricao": "objeto TRES",
+        "img": "./src/imgs/obj3.jpg"
+    },
+    {
+        "nome": "obj4",
+        "descricao": "objeto QUATRO",
+        "img": "./src/imgs/obj4.jpg"
+    },
+    {
+        "nome": "obj5",
+        "descricao": "objeto CINCO",
+        "img": "./src/imgs/obj5.jpg"
+    },
+    {
+        "nome": "obj6",
+        "descricao": "objeto SEIS",
+        "img": "./src/imgs/obj6.jpg"
     }
+    ,
+    {
+        "nome": "obj7",
+        "descricao": "objeto SETE",
+        "img": "./src/imgs/obj7.jpg"
+    },
+    {
+        "nome": "obj8",
+        "descricao": "objeto OITO",
+        "img": "./src/imgs/obj8.jpg"
+    },
+    {
+        "nome": "obj9",
+        "descricao": "objeto NOVE",
+        "img": "./src/imgs/obj9.jpg"
+    }
+]
 }

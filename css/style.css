@@ -1,4 +1,23 @@
-#Data_Viewer {
-    font-family: consolas;
-    font-size: 14px;
+body {
+  background-color: white;
+  color: black;
+  height: 100%;
+}
+
+div {
+  padding: 10%;
+  line-height: 175%;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table td {
+  text-align: center;
+  border-top: 0.5px solid black;
+  border-right: 0.5px solid black;
+  border-left: 0.5px solid black;
+  border-bottom: 0.5px solid black;
 }
