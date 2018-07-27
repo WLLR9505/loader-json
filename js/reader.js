@@ -1,5 +1,5 @@
 var viewer = document.getElementById('Data_Viewer');
-var showJson = false;
+var showJson = true;
 
 function loadJSON (file, callback) {
     var xhr = new XMLHttpRequest();
@@ -22,9 +22,7 @@ function Show (params) {
     var file = JSON.parse(params);
 
     //mantém a extrutura e exibe no console
-    console.log(file);
-    console.log(file.objeto.nome);
-    console.log(file.objeto.descricao);
+    console.log(Object.entries(file));
 
     //converte para texto e exibe no HTML
     let text = JSON.stringify(file, null, '\t');
